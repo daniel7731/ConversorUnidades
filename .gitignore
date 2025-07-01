@@ -1,0 +1,128 @@
+# Visual Studio Ignore File
+
+## Ignore Visual Studio specific files
+.vs/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.log
+*.pfx
+*.pidb
+*.vcdiff
+*.vsp
+*.vspscc
+*.vssscc
+*.testrunconfig
+*.trx
+
+## Ignore Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+Build/
+[Tt]emp/
+[Tt]mp/
+*.exe
+*.dll
+*.pdb
+*.tmp
+*.obj
+*.lib
+*.exp
+*.ilk
+*.aps
+*.res
+*.ress
+*.o
+*.so
+*.a
+*.bak
+*.ncb
+*.vc.opendb
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+
+## Ignore Installer Files
+*.msi
+*.msp
+*.msm
+*.msc
+*.cab
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+
+## Ignore NuGet Packages
+packages/
+*.nupkg
+*.nuget.log
+
+## Ignore ReSharper files
+*.ReSharper*
+_ReSharper.*/
+*.DotSettings
+*.DotSettings.user
+
+## Ignore Rider files
+.idea/
+
+## Ignore Visual Studio Code files
+.vscode/
+
+## Ignore Local Settings and Temporary Files
+Thumbs.db
+Desktop.ini
+
+## Ignore project specific files (if not under source control)
+# You might want to uncomment these if your project generates them and you don't want them in source control
+# MyProject.csproj.FileListAbsolute.txt
+# MyProject.csproj.user
+
+## Ignore SQL Server Management Studio files
+*.ssmssln
+*.bak
+
+## Ignore generated code (if applicable, e.g., T4 templates)
+# *.designer.cs
+# *.generated.cs
+
+## Ignore other common temporary files
+*.~
+*.bak
+*.orig
+*.swp
+*.swo
+*.swn
+*.swnp
+*.tmp
+*.log
+*.obj
+*.rej
+*.diff
+
+## macOS files
+.DS_Store
+
+## Linux files
+*~
+
+## npm/node_modules
+node_modules/
+npm-debug.log
+
+## Git specific ignore
+.gitattributes
+.gitkeep
+
+## DotNet specific ignore
+project.lock.json
+project.json.nuget.cache
